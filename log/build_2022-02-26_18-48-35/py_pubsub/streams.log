@@ -1,0 +1,41 @@
+[0.586s] Invoking command in '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/py_pubsub': PYTHONPATH=/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build install --prefix /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub --record /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.768s] running egg_info
+[0.768s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.768s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.768s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.769s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.769s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.769s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.772s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.799s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.801s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.802s] running build
+[0.802s] running build_py
+[0.802s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build
+[0.802s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build/lib
+[0.802s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.802s] copying py_pubsub/publisher_member_function.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.803s] copying py_pubsub/subscriber_member_function.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.803s] copying py_pubsub/__init__.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.804s] running install
+[0.805s] running install_lib
+[0.806s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.807s] copying /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.808s] copying /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.808s] copying /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.810s] byte-compiling /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[0.812s] byte-compiling /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[0.813s] byte-compiling /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc
+[0.814s] running install_data
+[0.815s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/share/ament_index
+[0.815s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/share/ament_index/resource_index
+[0.815s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.815s] copying resource/py_pubsub -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.816s] copying package.xml -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/share/py_pubsub
+[0.817s] running install_egg_info
+[0.818s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[0.825s] running install_scripts
+[0.839s] Installing listener script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/py_pubsub
+[0.839s] Installing talker script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/py_pubsub
+[0.839s] writing list of installed files to '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/install.log'
+[0.854s] Invoked command in '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/build install --prefix /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/py_pubsub --record /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

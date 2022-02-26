@@ -1,0 +1,8 @@
+/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl
