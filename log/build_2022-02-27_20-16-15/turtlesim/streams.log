@@ -1,0 +1,38 @@
+[0.382s] Invoking command in '/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim -- -j12 -l12
+[0.495s] [  1%] Built target turtlesim__cpp
+[0.517s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.551s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.555s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.566s] [ 49%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.567s] [ 51%] Built target turtlesim__rosidl_typesupport_c
+[0.573s] [ 61%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.614s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.634s] [ 71%] Built target turtlesim
+[0.674s] [35m[1mScanning dependencies of target turtlesim_node[0m
+[0.675s] [ 72%] Built target turtlesim__py
+[0.687s] [ 78%] Built target mimic
+[0.687s] [ 78%] Built target turtle_teleop_key
+[0.687s] [ 78%] Built target draw_square
+[0.720s] [ 87%] Built target turtlesim__python
+[0.764s] [ 93%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.764s] [ 93%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.765s] [ 93%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.993s] [ 94%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[2.848s] [01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:[m[K In constructor ‘[01m[Kturtlesim::TurtleFrame::TurtleFrame(rclcpp::Node::SharedPtr&, QWidget*, Qt::WindowFlags)[m[K’:
+[2.848s] [01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:39:22:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""xgg[m[K’
+[2.848s]    39 | #define DEFAULT_BG_B [01;31m[K0xgg[m[K
+[2.848s]       |                      [01;31m[K^~~~[m[K
+[2.849s] [01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:78:65:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDEFAULT_BG_B[m[K’
+[2.849s]    78 |   nh_->declare_parameter("background_b", rclcpp::ParameterValue([01;36m[KDEFAULT_BG_B[m[K), background_b_descriptor);
+[2.849s]       |                                                                 [01;36m[K^~~~~~~~~~~~[m[K
+[2.889s] [01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:[m[K In member function ‘[01m[Kvirtual void turtlesim::TurtleFrame::paintEvent(QPaintEvent*)[m[K’:
+[2.890s] [01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:39:22:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""xgg[m[K’
+[2.890s]    39 | #define DEFAULT_BG_B [01;31m[K0xgg[m[K
+[2.890s]       |                      [01;31m[K^~~~[m[K
+[2.890s] [01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:237:11:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDEFAULT_BG_B[m[K’
+[2.890s]   237 |   int b = [01;36m[KDEFAULT_BG_B[m[K;
+[2.890s]       |           [01;36m[K^~~~~~~~~~~~[m[K
+[4.309s] make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:93: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1
+[4.310s] make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2
+[4.310s] make: *** [Makefile:141: all] Error 2
+[4.312s] Invoked command in '/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim -- -j12 -l12

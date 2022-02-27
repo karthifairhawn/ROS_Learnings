@@ -1,0 +1,35 @@
+[  1%] Built target turtlesim__cpp
+[ 11%] Built target turtlesim__rosidl_generator_c
+[ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 51%] Built target turtlesim__rosidl_typesupport_c
+[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[ 71%] Built target turtlesim
+[ 72%] Built target turtlesim__py
+[ 74%] Built target mimic
+[ 77%] Built target turtle_teleop_key
+[ 78%] Built target draw_square
+[ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[ 88%] Built target turtlesim__python
+[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext
+[ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:[m[K In constructor ‘[01m[Kturtlesim::TurtleFrame::TurtleFrame(rclcpp::Node::SharedPtr&, QWidget*, Qt::WindowFlags)[m[K’:
+[01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:39:22:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""xgg[m[K’
+   39 | #define DEFAULT_BG_B [01;31m[K0xgg[m[K
+      |                      [01;31m[K^~~~[m[K
+[01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:78:65:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDEFAULT_BG_B[m[K’
+   78 |   nh_->declare_parameter("background_b", rclcpp::ParameterValue([01;36m[KDEFAULT_BG_B[m[K), background_b_descriptor);
+      |                                                                 [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:[m[K In member function ‘[01m[Kvirtual void turtlesim::TurtleFrame::paintEvent(QPaintEvent*)[m[K’:
+[01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:39:22:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""xgg[m[K’
+   39 | #define DEFAULT_BG_B [01;31m[K0xgg[m[K
+      |                      [01;31m[K^~~~[m[K
+[01m[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:237:11:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDEFAULT_BG_B[m[K’
+  237 |   int b = [01;36m[KDEFAULT_BG_B[m[K;
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:93: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

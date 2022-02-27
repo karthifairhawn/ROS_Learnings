@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000386] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000619] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000679] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001065] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.008790] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.010125] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.011002] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim', 'env': OrderedDict([('PROFILEHOME', '/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', 'en_IN:en'), ('USER', 'karthi'), ('QT_SCREEN_SCALE_FACTORS', 'eDP-1-1=1.25;HDMI-1-1=1.25;'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1299'), ('XDG_SESSION_TYPE', 'x11'), ('KONSOLE_VERSION', '191203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/karthi'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '30eb3ba82daf4ba0a954c0e9f0060719'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/karthi/.gtkrc:/home/karthi/.config/gtkrc'), ('GTK_MODULES', 'gail:atk-bridge'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'karthi'), ('WINDOWID', '92274695'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '0;15'), ('USERNAME', 'karthi'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/karthi/.gtkrc-2.0:/home/karthi/.config/gtkrc-2.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cage:@/tmp/.ICE-unix/1373,unix/cage:/tmp/.ICE-unix/1373'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'plasma'), ('XAUTHORITY', '/tmp/xauth-1000-_0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-mRxmsizglVN4/agent.1220'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'plasma'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.103'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('PWD', '/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-plasma:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.082547] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.091562] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.099475] (-) TimerEvent: {}
+[0.115892] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.119031] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.126172] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.126594] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.132054] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.164201] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.183190] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.199580] (-) TimerEvent: {}
+[0.208015] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.212757] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target mimic\n'}
+[0.213341] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtle_teleop_key\n'}
+[0.213591] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target draw_square\n'}
+[0.223683] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[0.241323] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__python\n'}
+[0.271448] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.271715] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.271871] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.299694] (-) TimerEvent: {}
+[0.399951] (-) TimerEvent: {}
+[0.500386] (-) TimerEvent: {}
+[0.600914] (-) TimerEvent: {}
+[0.701393] (-) TimerEvent: {}
+[0.801888] (-) TimerEvent: {}
+[0.902393] (-) TimerEvent: {}
+[1.002925] (-) TimerEvent: {}
+[1.103419] (-) TimerEvent: {}
+[1.203915] (-) TimerEvent: {}
+[1.304352] (-) TimerEvent: {}
+[1.404836] (-) TimerEvent: {}
+[1.505332] (-) TimerEvent: {}
+[1.605860] (-) TimerEvent: {}
+[1.706388] (-) TimerEvent: {}
+[1.806604] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::TurtleFrame::TurtleFrame(rclcpp::Node::SharedPtr&, QWidget*, Qt::WindowFlags)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.807189] (-) TimerEvent: {}
+[1.807378] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:39:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""xgg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.807642] (turtlesim) StderrLine: {'line': b'   39 | #define DEFAULT_BG_B \x1b[01;31m\x1b[K0xgg\x1b[m\x1b[K\n'}
+[1.807786] (turtlesim) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.807911] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:78:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDEFAULT_BG_B\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.808120] (turtlesim) StderrLine: {'line': b'   78 |   nh_->declare_parameter("background_b", rclcpp::ParameterValue(\x1b[01;36m\x1b[KDEFAULT_BG_B\x1b[m\x1b[K), background_b_descriptor);\n'}
+[1.808289] (turtlesim) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.849775] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void turtlesim::TurtleFrame::paintEvent(QPaintEvent*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.850582] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:39:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""xgg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.850727] (turtlesim) StderrLine: {'line': b'   39 | #define DEFAULT_BG_B \x1b[01;31m\x1b[K0xgg\x1b[m\x1b[K\n'}
+[1.850858] (turtlesim) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.850985] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:237:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDEFAULT_BG_B\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.851111] (turtlesim) StderrLine: {'line': b'  237 |   int b = \x1b[01;36m\x1b[KDEFAULT_BG_B\x1b[m\x1b[K;\n'}
+[1.851235] (turtlesim) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.907325] (-) TimerEvent: {}
+[2.007835] (-) TimerEvent: {}
+[2.108404] (-) TimerEvent: {}
+[2.208933] (-) TimerEvent: {}
+[2.309439] (-) TimerEvent: {}
+[2.409948] (-) TimerEvent: {}
+[2.510432] (-) TimerEvent: {}
+[2.610924] (-) TimerEvent: {}
+[2.711434] (-) TimerEvent: {}
+[2.811932] (-) TimerEvent: {}
+[2.912314] (-) TimerEvent: {}
+[3.012833] (-) TimerEvent: {}
+[3.113367] (-) TimerEvent: {}
+[3.213863] (-) TimerEvent: {}
+[3.231084] (turtlesim) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:93: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1\n'}
+[3.231909] (turtlesim) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2\n'}
+[3.232120] (turtlesim) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.233861] (turtlesim) CommandEnded: {'returncode': 2}
+[3.314003] (-) TimerEvent: {}
+[3.393606] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 2}
+[3.404155] (-) EventReactorShutdown: {}
