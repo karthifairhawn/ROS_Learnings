@@ -43,6 +43,17 @@ CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/ms
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o: rosidl_generator_c/turtlesim/msg/detail/color__struct.h
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o: rosidl_typesupport_c/turtlesim/msg/rosidl_typesupport_c__visibility_control.h
 
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/identifier.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/type_support_map.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: rosidl_generator_c/turtlesim/msg/detail/main_bg__struct.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/main_bg__type_support.cpp.o: rosidl_typesupport_c/turtlesim/msg/rosidl_typesupport_c__visibility_control.h
+
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o: rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
@@ -68,6 +79,19 @@ CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/sr
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o: rosidl_generator_c/turtlesim/srv/detail/kill__struct.h
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o: rosidl_typesupport_c/turtlesim/msg/rosidl_typesupport_c__visibility_control.h
+
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/identifier.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/service_type_support_dispatch.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/type_support_map.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: rosidl_generator_c/turtlesim/srv/detail/main_bg__struct.h
+CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/main_bg__type_support.cpp.o: rosidl_typesupport_c/turtlesim/msg/rosidl_typesupport_c__visibility_control.h
 
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o: rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp
 CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h

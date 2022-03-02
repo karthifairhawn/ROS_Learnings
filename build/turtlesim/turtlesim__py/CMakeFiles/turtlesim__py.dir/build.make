@@ -56,6 +56,8 @@ include turtlesim__py/CMakeFiles/turtlesim__py.dir/progress.make
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/msg/_main_bg.py
+turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/srv/_main_bg.py
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/action/_rotate_absolute.py
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/msg/_color.py
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/msg/_pose.py
@@ -64,9 +66,11 @@ turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/srv/_set_p
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/srv/_spawn.py
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/srv/_teleport_absolute.py
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/srv/_teleport_relative.py
-turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/action/__init__.py
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/msg/__init__.py
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/srv/__init__.py
+turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/action/__init__.py
+turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/msg/_main_bg_s.c
+turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/srv/_main_bg_s.c
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/msg/_color_s.c
 turtlesim__py/CMakeFiles/turtlesim__py: rosidl_generator_py/turtlesim/msg/_pose_s.c
@@ -90,6 +94,8 @@ rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim/msg/MainBG.idl
+rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim/srv/MainBG.idl
 rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim/action/RotateAbsolute.idl
 rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim/msg/Color.idl
 rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim/msg/Pose.idl
@@ -113,6 +119,12 @@ rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c
 
 rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+
+rosidl_generator_py/turtlesim/msg/_main_bg.py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/msg/_main_bg.py
+
+rosidl_generator_py/turtlesim/srv/_main_bg.py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/srv/_main_bg.py
 
 rosidl_generator_py/turtlesim/action/_rotate_absolute.py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/action/_rotate_absolute.py
@@ -138,14 +150,20 @@ rosidl_generator_py/turtlesim/srv/_teleport_absolute.py: rosidl_generator_py/tur
 rosidl_generator_py/turtlesim/srv/_teleport_relative.py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/srv/_teleport_relative.py
 
-rosidl_generator_py/turtlesim/action/__init__.py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/action/__init__.py
-
 rosidl_generator_py/turtlesim/msg/__init__.py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/msg/__init__.py
 
 rosidl_generator_py/turtlesim/srv/__init__.py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/srv/__init__.py
+
+rosidl_generator_py/turtlesim/action/__init__.py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/action/__init__.py
+
+rosidl_generator_py/turtlesim/msg/_main_bg_s.c: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/msg/_main_bg_s.c
+
+rosidl_generator_py/turtlesim/srv/_main_bg_s.c: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/srv/_main_bg_s.c
 
 rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c
@@ -175,6 +193,8 @@ turtlesim__py: turtlesim__py/CMakeFiles/turtlesim__py
 turtlesim__py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
 turtlesim__py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
 turtlesim__py: rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+turtlesim__py: rosidl_generator_py/turtlesim/msg/_main_bg.py
+turtlesim__py: rosidl_generator_py/turtlesim/srv/_main_bg.py
 turtlesim__py: rosidl_generator_py/turtlesim/action/_rotate_absolute.py
 turtlesim__py: rosidl_generator_py/turtlesim/msg/_color.py
 turtlesim__py: rosidl_generator_py/turtlesim/msg/_pose.py
@@ -183,9 +203,11 @@ turtlesim__py: rosidl_generator_py/turtlesim/srv/_set_pen.py
 turtlesim__py: rosidl_generator_py/turtlesim/srv/_spawn.py
 turtlesim__py: rosidl_generator_py/turtlesim/srv/_teleport_absolute.py
 turtlesim__py: rosidl_generator_py/turtlesim/srv/_teleport_relative.py
-turtlesim__py: rosidl_generator_py/turtlesim/action/__init__.py
 turtlesim__py: rosidl_generator_py/turtlesim/msg/__init__.py
 turtlesim__py: rosidl_generator_py/turtlesim/srv/__init__.py
+turtlesim__py: rosidl_generator_py/turtlesim/action/__init__.py
+turtlesim__py: rosidl_generator_py/turtlesim/msg/_main_bg_s.c
+turtlesim__py: rosidl_generator_py/turtlesim/srv/_main_bg_s.c
 turtlesim__py: rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c
 turtlesim__py: rosidl_generator_py/turtlesim/msg/_color_s.c
 turtlesim__py: rosidl_generator_py/turtlesim/msg/_pose_s.c

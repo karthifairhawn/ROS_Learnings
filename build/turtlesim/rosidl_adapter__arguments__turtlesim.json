@@ -1,6 +1,8 @@
 {
   "package_name": "turtlesim",
   "non_idl_tuples": [
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:msg/MainBG.msg",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:srv/MainBG.srv",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:action/RotateAbsolute.action",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:msg/Color.msg",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:msg/Pose.msg",

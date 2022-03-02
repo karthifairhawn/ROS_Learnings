@@ -3,6 +3,8 @@
   "output_dir": "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_generator_py/turtlesim",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/MainBG.idl",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/MainBG.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
@@ -35,6 +37,8 @@
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/MainBG.idl",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/MainBG.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Color.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl",

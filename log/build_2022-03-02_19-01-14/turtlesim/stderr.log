@@ -1,0 +1,7 @@
+[01m[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:[m[K In constructor ‘[01m[Kturtlesim::TurtleFrame::TurtleFrame(rclcpp::Node::SharedPtr&, QWidget*, Qt::WindowFlags)[m[K’:
+[01m[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:103:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbg_paint_srv[m[K’ was not declared in this scope
+  103 |   [01;31m[Kbg_paint_srv[m[K = nh_->create_service<std_srvs::srv::Empty>("reset", std::bind(&TurtleFrame::resetCallback, this, std::placeholders::_1, std::placeholders::_2));
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:93: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

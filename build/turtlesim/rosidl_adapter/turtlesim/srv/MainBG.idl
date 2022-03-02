@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtlesim/srv/MainBG.srv
+// generated code does not contain a copyright notice
+
+
+module turtlesim {
+  module srv {
+    struct MainBG_Request {
+      int64 r;
+
+      int64 g;
+
+      int64 b;
+    };
+    struct MainBG_Response {
+      int64 sum;
+    };
+  };
+};

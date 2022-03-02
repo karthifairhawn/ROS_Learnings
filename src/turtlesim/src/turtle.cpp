@@ -57,7 +57,7 @@ Turtle::Turtle(rclcpp::Node::SharedPtr& nh, const std::string& real_name, const 
 , pen_on_(true)
 , pen_(QColor(DEFAULT_PEN_R, DEFAULT_PEN_G, DEFAULT_PEN_B))
 {
-  pen_.setWidth(3);
+  pen_.setWidth(10);
 
   rclcpp::QoS qos(rclcpp::KeepLast(7));
   velocity_sub_ = nh_->create_subscription<geometry_msgs::msg::Twist>(real_name + "/cmd_vel", qos, std::bind(&Turtle::velocityCallback, this, std::placeholders::_1));

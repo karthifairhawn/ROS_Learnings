@@ -49,7 +49,7 @@ TurtleFrame::TurtleFrame(rclcpp::Node::SharedPtr& node_handle, QWidget* parent, 
 , id_counter_(0)
 {
   setFixedSize(300, 300);
-  setWindowTitle("TurtleSim in workspac");
+  setWindowTitle("TurtleSim in workspace");
 
   srand(time(NULL));
 
@@ -100,6 +100,7 @@ TurtleFrame::TurtleFrame(rclcpp::Node::SharedPtr& node_handle, QWidget* parent, 
   clear_srv_ = nh_->create_service<std_srvs::srv::Empty>("clear", std::bind(&TurtleFrame::clearCallback, this, std::placeholders::_1, std::placeholders::_2));
   reset_srv_ = nh_->create_service<std_srvs::srv::Empty>("reset", std::bind(&TurtleFrame::resetCallback, this, std::placeholders::_1, std::placeholders::_2));
   spawn_srv_ = nh_->create_service<turtlesim::srv::Spawn>("spawn", std::bind(&TurtleFrame::spawnCallback, this, std::placeholders::_1, std::placeholders::_2));
+  // bg_paint_srv = nh_->create_service<std_srvs::srv::Empty>("bg_paint", std::bind(&TurtleFrame::resetCallback, this, std::placeholders::_1, std::placeholders::_2));
   kill_srv_ = nh_->create_service<turtlesim::srv::Kill>("kill", std::bind(&TurtleFrame::killCallback, this, std::placeholders::_1, std::placeholders::_2));
 
   rclcpp::QoS qos(rclcpp::KeepLast(100), rmw_qos_profile_sensor_data);

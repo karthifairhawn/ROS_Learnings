@@ -1,0 +1,27 @@
+[0.245s] Invoking command in '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2:/opt/ros/foxy /usr/bin/cmake --build /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim -- -j12 -l12
+[0.352s] [  1%] Built target turtlesim__cpp
+[0.362s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.418s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.421s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.424s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[0.429s] [ 60%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.429s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.480s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.513s] [ 71%] Built target turtlesim
+[0.571s] [ 72%] Built target turtlesim__py
+[0.576s] [ 75%] Built target mimic
+[0.576s] [ 76%] Built target draw_square
+[0.580s] [ 78%] Built target turtle_teleop_key
+[0.594s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[0.629s] [ 88%] Built target turtlesim__python
+[0.697s] [ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.698s] [ 94%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.698s] [ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[2.361s] [01m[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:[m[K In constructor ‘[01m[Kturtlesim::TurtleFrame::TurtleFrame(rclcpp::Node::SharedPtr&, QWidget*, Qt::WindowFlags)[m[K’:
+[2.361s] [01m[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:103:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbg_paint_srv[m[K’ was not declared in this scope
+[2.361s]   103 |   [01;31m[Kbg_paint_srv[m[K = nh_->create_service<std_srvs::srv::Empty>("bg_paint", std::bind(&TurtleFrame::resetCallback, this, std::placeholders::_1, std::placeholders::_2));
+[2.361s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[3.858s] make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:93: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1
+[3.859s] make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2
+[3.859s] make: *** [Makefile:141: all] Error 2
+[3.861s] Invoked command in '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2:/opt/ros/foxy /usr/bin/cmake --build /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim -- -j12 -l12

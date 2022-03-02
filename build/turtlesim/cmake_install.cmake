@@ -255,15 +255,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/turtlesim/action" TYPE DIRECTORY FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_generator_py/turtlesim/action/" REGEX "/[^/]*\\.py$")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/turtlesim/msg" TYPE DIRECTORY FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_generator_py/turtlesim/msg/" REGEX "/[^/]*\\.py$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/turtlesim/srv" TYPE DIRECTORY FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/" REGEX "/[^/]*\\.py$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/turtlesim/action" TYPE DIRECTORY FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_generator_py/turtlesim/action/" REGEX "/[^/]*\\.py$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -359,6 +359,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim/msg" TYPE FILE FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/MainBG.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim/srv" TYPE FILE FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/MainBG.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim/action" TYPE FILE FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl")
 endif()
 
@@ -388,6 +396,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim/srv" TYPE FILE FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportRelative.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim/msg" TYPE FILE FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/msg/MainBG.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim/srv" TYPE FILE FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/srv/MainBG.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim/srv" TYPE FILE FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_cmake/srv/MainBG_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim/srv" TYPE FILE FILES "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_cmake/srv/MainBG_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

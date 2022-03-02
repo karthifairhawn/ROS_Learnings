@@ -3,6 +3,8 @@
   "output_dir": "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_typesupport_introspection_c/turtlesim",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/MainBG.idl",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/MainBG.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
@@ -30,6 +32,8 @@
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/MainBG.idl",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/MainBG.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Color.idl",
     "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl",

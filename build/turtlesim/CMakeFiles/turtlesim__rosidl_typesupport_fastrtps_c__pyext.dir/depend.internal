@@ -105,6 +105,9 @@ CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_
  rosidl_generator_c/turtlesim/msg/detail/color__functions.h
  rosidl_generator_c/turtlesim/msg/detail/color__struct.h
  rosidl_generator_c/turtlesim/msg/detail/color__type_support.h
+ rosidl_generator_c/turtlesim/msg/detail/main_bg__functions.h
+ rosidl_generator_c/turtlesim/msg/detail/main_bg__struct.h
+ rosidl_generator_c/turtlesim/msg/detail/main_bg__type_support.h
  rosidl_generator_c/turtlesim/msg/detail/pose__functions.h
  rosidl_generator_c/turtlesim/msg/detail/pose__struct.h
  rosidl_generator_c/turtlesim/msg/detail/pose__type_support.h
@@ -112,6 +115,9 @@ CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_
  rosidl_generator_c/turtlesim/srv/detail/kill__functions.h
  rosidl_generator_c/turtlesim/srv/detail/kill__struct.h
  rosidl_generator_c/turtlesim/srv/detail/kill__type_support.h
+ rosidl_generator_c/turtlesim/srv/detail/main_bg__functions.h
+ rosidl_generator_c/turtlesim/srv/detail/main_bg__struct.h
+ rosidl_generator_c/turtlesim/srv/detail/main_bg__type_support.h
  rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.h
  rosidl_generator_c/turtlesim/srv/detail/set_pen__struct.h
  rosidl_generator_c/turtlesim/srv/detail/set_pen__type_support.h

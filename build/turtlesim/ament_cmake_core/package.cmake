@@ -1,7 +1,7 @@
 set(_AMENT_PACKAGE_NAME "turtlesim")
 set(turtlesim_VERSION "1.2.5")
 set(turtlesim_MAINTAINER "Mabel Zhang <mabel@openrobotics.org>, Shane Loretz <sloretz@openrobotics.org>")
-set(turtlesim_BUILD_DEPENDS "qt5-qmake" "qtbase5-dev" "ament_index_cpp" "geometry_msgs" "rclcpp" "rclcpp_action" "std_msgs" "std_srvs")
+set(turtlesim_BUILD_DEPENDS "qt5-qmake" "qtbase5-dev" "rosidl_default_generators" "ament_index_cpp" "geometry_msgs" "rclcpp" "rclcpp_action" "std_msgs" "std_srvs")
 set(turtlesim_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(turtlesim_BUILD_EXPORT_DEPENDS "ament_index_cpp" "geometry_msgs" "rclcpp" "rclcpp_action" "std_msgs" "std_srvs")
 set(turtlesim_BUILDTOOL_EXPORT_DEPENDS )

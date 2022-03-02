@@ -35,10 +35,48 @@ From root dir -  `colcon build`
 
 
 ### Service
-`2. ros2 service list` - List all Services
 `1. ros2 service call /clear std_srvs/srv/Empty` - Calling a service
+`2. ros2 service list` - List all Services
 
 
+### Interfaces
 
+1. `ros2 interface show turtlesim/msg/MainBG` - To view a msg interface
+
+ 2. Creating new interace example
+  - In the tutorial_interfaces/msg directory you just created, make a new file called Num.msg with one line of code     declaring its data structure:
+  `int64 num`
+- Back in the tutorial_interfaces/srv directory you just created, make a new file called AddThreeInts.srv with the following request and response structure:
+    ```
+    int64 a
+
+    int64 b
+
+    int64 c
+
+    ---
+
+    int64 sum
+
+    ```
+- To convert the interfaces you defined into language-specific code (like C++ and Python) so that they can be used in those languages, add the following lines to CMakeLists.txt:
+ 
+   ```
+   find_package(rosidl_default_generators REQUIRED)
+
+  rosidl_generate_interfaces(${PROJECT_NAME}
+    "msg/Num.msg"
+    "srv/AddThreeInts.srv"
+  )
+  ```
+- Because the interfaces rely on rosidl_default_generators for generating language-specific code, you need to declare a dependency on it. Add the following lines to package.xml
+  ```
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  ```
+---
 
 

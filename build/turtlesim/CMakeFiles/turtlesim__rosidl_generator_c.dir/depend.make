@@ -19,6 +19,12 @@ CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/de
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o: rosidl_generator_c/turtlesim/msg/detail/color__struct.h
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o: rosidl_generator_c/turtlesim/msg/rosidl_generator_c__visibility_control.h
 
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/main_bg__functions.c.o: rosidl_generator_c/turtlesim/msg/detail/main_bg__functions.c
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/main_bg__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/main_bg__functions.c.o: rosidl_generator_c/turtlesim/msg/detail/main_bg__functions.h
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/main_bg__functions.c.o: rosidl_generator_c/turtlesim/msg/detail/main_bg__struct.h
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/main_bg__functions.c.o: rosidl_generator_c/turtlesim/msg/rosidl_generator_c__visibility_control.h
+
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o: rosidl_generator_c/turtlesim/msg/detail/pose__functions.c
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o: rosidl_generator_c/turtlesim/msg/detail/pose__functions.h
@@ -33,6 +39,12 @@ CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/de
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o: rosidl_generator_c/turtlesim/msg/rosidl_generator_c__visibility_control.h
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o: rosidl_generator_c/turtlesim/srv/detail/kill__functions.h
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o: rosidl_generator_c/turtlesim/srv/detail/kill__struct.h
+
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/main_bg__functions.c.o: rosidl_generator_c/turtlesim/srv/detail/main_bg__functions.c
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/main_bg__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/main_bg__functions.c.o: rosidl_generator_c/turtlesim/msg/rosidl_generator_c__visibility_control.h
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/main_bg__functions.c.o: rosidl_generator_c/turtlesim/srv/detail/main_bg__functions.h
+CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/main_bg__functions.c.o: rosidl_generator_c/turtlesim/srv/detail/main_bg__struct.h
 
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o: rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
