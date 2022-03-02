@@ -20,7 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'squaredo = turtle_control.turtle:main',
+                'pyturtle = turtle_control.turtle:main',
+                'pyturtlecontrol = turtle_control.control:main',
+                'bgservice = turtle_control.bgcolor_service:main',
+                'bgclient = turtle_control.bgcolor_client:main',
         ],
     },
 )
