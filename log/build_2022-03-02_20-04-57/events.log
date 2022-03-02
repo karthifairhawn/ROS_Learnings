@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (turtle_control) JobQueued: {'identifier': 'turtle_control', 'dependencies': OrderedDict()}
+[0.000536] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001002] (turtle_control) JobStarted: {'identifier': 'turtle_control'}
+[0.015817] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099138] (-) TimerEvent: {}
+[0.199652] (-) TimerEvent: {}
+[0.258643] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.260015] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.260865] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', 'en_IN:en'), ('USER', 'karthi'), ('QT_SCREEN_SCALE_FACTORS', 'eDP-1-1=1.25;HDMI-1-1=1.25;'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1238'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/karthi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'plasma'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/88/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'karthi'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'karthi'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cage:@/tmp/.ICE-unix/1349,unix/cage:/tmp/.ICE-unix/1349'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'plasma'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ea8df35a43.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-FQapXa40KSHA/agent.1178'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/88/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'plasma'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('PWD', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-plasma:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/karthi/.config/Code/exthost Crash Reports'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2:/opt/ros/foxy')]), 'shell': False}
+[0.299826] (-) TimerEvent: {}
+[0.357095] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.368875] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.399890] (-) TimerEvent: {}
+[0.430820] (turtlesim) StdoutLine: {'line': b'[ 29%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.431857] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.440521] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.441537] (turtlesim) StdoutLine: {'line': b'[ 53%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.444232] (turtlesim) StdoutLine: {'line': b'[ 63%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.494992] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.499958] (-) TimerEvent: {}
+[0.530673] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim\n'}
+[0.564309] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim_node\x1b[0m\n'}
+[0.587614] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim__py\n'}
+[0.596069] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtle_teleop_key\n'}
+[0.600039] (-) TimerEvent: {}
+[0.601697] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target draw_square\n'}
+[0.602071] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target mimic\n'}
+[0.682743] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__python\n'}
+[0.700116] (-) TimerEvent: {}
+[0.701957] (turtle_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_control', 'build', '--build-base', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/build', 'install', '--prefix', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control', '--record', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/install.log', '--single-version-externally-managed'], 'cwd': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtle_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': 'en_IN:en', 'USER': 'karthi', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1-1=1.25;HDMI-1-1=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1238', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/karthi', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.64.2', 'DESKTOP_SESSION': 'plasma', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/88/usr/share/code/code', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'COLCON_PREFIX_PATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'karthi', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'karthi', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cage:@/tmp/.ICE-unix/1349,unix/cage:/tmp/.ICE-unix/1349', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XDG_SESSION_DESKTOP': 'plasma', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ea8df35a43.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-FQapXa40KSHA/agent.1178', 'GSETTINGS_SCHEMA_DIR': '/snap/code/88/usr/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2:/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'KDE', 'SHELL': '/bin/bash', 'DISABLE_WAYLAND': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'plasma', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'XDG_VTNR': '2', 'PWD': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-plasma:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'BREAKPAD_DUMP_LOCATION': '/home/karthi/.config/Code/exthost Crash Reports', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim'}, 'shell': False}
+[0.756309] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.756842] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.757874] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.800202] (-) TimerEvent: {}
+[0.900533] (-) TimerEvent: {}
+[0.964426] (turtle_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.965178] (turtle_control) StdoutLine: {'line': b'writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO\n'}
+[0.965986] (turtle_control) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt\n'}
+[0.966527] (turtle_control) StdoutLine: {'line': b'writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt\n'}
+[0.966943] (turtle_control) StdoutLine: {'line': b'writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt\n'}
+[0.967340] (turtle_control) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt\n'}
+[0.981133] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[1.000639] (-) TimerEvent: {}
+[1.009374] (turtle_control) StdoutLine: {'line': b"reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'\n"}
+[1.012896] (turtle_control) StdoutLine: {'line': b"writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'\n"}
+[1.013255] (turtle_control) StdoutLine: {'line': b'running build\n'}
+[1.013431] (turtle_control) StdoutLine: {'line': b'running build_py\n'}
+[1.014687] (turtle_control) StdoutLine: {'line': b'running install\n'}
+[1.015884] (turtle_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.020712] (turtle_control) StdoutLine: {'line': b'running install_data\n'}
+[1.022395] (turtle_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.024702] (turtle_control) StdoutLine: {'line': b"removing '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.027278] (turtle_control) StdoutLine: {'line': b'Copying ../../build/turtle_control/turtle_control.egg-info to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control-0.0.0-py3.8.egg-info\n'}
+[1.035937] (turtle_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.057701] (turtle_control) StdoutLine: {'line': b'Installing squaredo script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control\n'}
+[1.058524] (turtle_control) StdoutLine: {'line': b"writing list of installed files to '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/install.log'\n"}
+[1.077214] (turtle_control) CommandEnded: {'returncode': 0}
+[1.095264] (turtle_control) JobEnded: {'identifier': 'turtle_control', 'rc': 0}
+[1.100717] (-) TimerEvent: {}
+[1.201002] (-) TimerEvent: {}
+[1.301367] (-) TimerEvent: {}
+[1.401836] (-) TimerEvent: {}
+[1.502274] (-) TimerEvent: {}
+[1.602721] (-) TimerEvent: {}
+[1.703236] (-) TimerEvent: {}
+[1.803670] (-) TimerEvent: {}
+[1.904117] (-) TimerEvent: {}
+[2.004561] (-) TimerEvent: {}
+[2.104990] (-) TimerEvent: {}
+[2.205535] (-) TimerEvent: {}
+[2.306024] (-) TimerEvent: {}
+[2.406568] (-) TimerEvent: {}
+[2.507078] (-) TimerEvent: {}
+[2.607622] (-) TimerEvent: {}
+[2.691222] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::TurtleFrame::TurtleFrame(rclcpp::Node::SharedPtr&, QWidget*, Qt::WindowFlags)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.691976] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:103:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbg_paint_srv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.692163] (turtlesim) StderrLine: {'line': b'  103 |   \x1b[01;31m\x1b[Kbg_paint_srv\x1b[m\x1b[K = nh_->create_service<turtlesim::srv::MainBG>("mainbg", std::bind(&TurtleFrame::resetCallback, this, std::placeholders::_1, std::placeholders::_2));\n'}
+[2.692293] (turtlesim) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.692434] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:103:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMainBG\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692724] (turtlesim) StderrLine: {'line': b'  103 |   bg_paint_srv = nh_->create_service<turtlesim::srv::\x1b[01;31m\x1b[KMainBG\x1b[m\x1b[K>("mainbg", std::bind(&TurtleFrame::resetCallback, this, std::placeholders::_1, std::placeholders::_2));\n'}
+[2.692892] (turtlesim) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.693022] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:103:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMainBG\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693153] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:103:162:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_service<<expression error> >(const char [7], std::_Bind_helper<false, bool (turtlesim::TurtleFrame::*)(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >), turtlesim::TurtleFrame*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693285] (turtlesim) StderrLine: {'line': b'  103 | ::srv::MainBG>("mainbg", std::bind(&TurtleFrame::resetCallback, this, std::placeholders::_1, std::placeholders::_2)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.693416] (turtlesim) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.693567] (turtlesim) StderrLine: {'line': b'\n'}
+[2.693689] (turtlesim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[2.693812] (turtlesim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.693934] (turtlesim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.694077] (turtlesim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.694202] (turtlesim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/include/turtlesim/turtle_frame.h:39\x1b[m\x1b[K,\n'}
+[2.694328] (turtlesim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:30\x1b[m\x1b[K:\n'}
+[2.694446] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:140:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.694590] (turtlesim) StderrLine: {'line': b'  140 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_service(\n'}
+[2.694719] (turtlesim) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.694842] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:140:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.694968] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/src/turtle_frame.cpp:103:162:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.695118] (turtlesim) StderrLine: {'line': b'  103 | ::srv::MainBG>("mainbg", std::bind(&TurtleFrame::resetCallback, this, std::placeholders::_1, std::placeholders::_2)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.695262] (turtlesim) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.695388] (turtlesim) StderrLine: {'line': b'\n'}
+[2.707740] (-) TimerEvent: {}
+[2.808267] (-) TimerEvent: {}
+[2.908801] (-) TimerEvent: {}
+[3.009355] (-) TimerEvent: {}
+[3.109859] (-) TimerEvent: {}
+[3.210368] (-) TimerEvent: {}
+[3.310883] (-) TimerEvent: {}
+[3.411394] (-) TimerEvent: {}
+[3.511898] (-) TimerEvent: {}
+[3.612432] (-) TimerEvent: {}
+[3.712944] (-) TimerEvent: {}
+[3.813495] (-) TimerEvent: {}
+[3.913945] (-) TimerEvent: {}
+[4.014454] (-) TimerEvent: {}
+[4.114989] (-) TimerEvent: {}
+[4.178670] (turtlesim) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:93: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1\n'}
+[4.179102] (turtlesim) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2\n'}
+[4.179496] (turtlesim) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.181397] (turtlesim) CommandEnded: {'returncode': 2}
+[4.215192] (-) TimerEvent: {}
+[4.315524] (-) TimerEvent: {}
+[4.415793] (-) TimerEvent: {}
+[4.516088] (-) TimerEvent: {}
+[4.615812] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 2}
+[4.616495] (-) TimerEvent: {}
+[4.626656] (-) EventReactorShutdown: {}

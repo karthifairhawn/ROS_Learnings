@@ -1,0 +1,19 @@
+[  1%] Built target turtlesim__cpp
+[ 11%] Built target turtlesim__rosidl_generator_c
+[ 29%] Built target turtlesim__rosidl_typesupport_cpp
+[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 51%] Built target turtlesim__rosidl_typesupport_c
+[ 53%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 63%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 74%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[ 74%] Built target turtlesim
+[35m[1mScanning dependencies of target turtlesim_node[0m
+[ 74%] Built target turtlesim__py
+[ 76%] Built target turtle_teleop_key
+[ 79%] Built target draw_square
+[ 79%] Built target mimic
+[ 89%] Built target turtlesim__python
+[ 91%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext
+[ 95%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
