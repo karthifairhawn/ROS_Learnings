@@ -1,0 +1,37 @@
+[0.540s] Invoking command in '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtle2': PYTHONPATH=/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle2 build --build-base /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build install --prefix /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2 --record /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/install.log --single-version-externally-managed
+[0.739s] running egg_info
+[0.739s] creating ../../build/turtle2/turtle2.egg-info
+[0.740s] writing ../../build/turtle2/turtle2.egg-info/PKG-INFO
+[0.740s] writing dependency_links to ../../build/turtle2/turtle2.egg-info/dependency_links.txt
+[0.740s] writing entry points to ../../build/turtle2/turtle2.egg-info/entry_points.txt
+[0.741s] writing requirements to ../../build/turtle2/turtle2.egg-info/requires.txt
+[0.741s] writing top-level names to ../../build/turtle2/turtle2.egg-info/top_level.txt
+[0.742s] writing manifest file '../../build/turtle2/turtle2.egg-info/SOURCES.txt'
+[0.770s] reading manifest file '../../build/turtle2/turtle2.egg-info/SOURCES.txt'
+[0.772s] writing manifest file '../../build/turtle2/turtle2.egg-info/SOURCES.txt'
+[0.772s] running build
+[0.772s] running build_py
+[0.772s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build
+[0.772s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib
+[0.773s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib/turtle2
+[0.773s] copying turtle2/turtle.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib/turtle2
+[0.773s] copying turtle2/__init__.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib/turtle2
+[0.774s] running install
+[0.775s] running install_lib
+[0.776s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages/turtle2
+[0.776s] copying /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib/turtle2/turtle.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages/turtle2
+[0.777s] copying /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib/turtle2/__init__.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages/turtle2
+[0.779s] byte-compiling /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages/turtle2/turtle.py to turtle.cpython-38.pyc
+[0.781s] byte-compiling /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages/turtle2/__init__.py to __init__.cpython-38.pyc
+[0.781s] running install_data
+[0.782s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/share/ament_index
+[0.782s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/share/ament_index/resource_index
+[0.782s] creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/share/ament_index/resource_index/packages
+[0.783s] copying resource/turtle2 -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/share/ament_index/resource_index/packages
+[0.783s] copying package.xml -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/share/turtle2
+[0.784s] running install_egg_info
+[0.786s] Copying ../../build/turtle2/turtle2.egg-info to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages/turtle2-0.0.0-py3.8.egg-info
+[0.792s] running install_scripts
+[0.806s] Installing talker script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/turtle2
+[0.807s] writing list of installed files to '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/install.log'
+[0.823s] Invoked command in '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtle2' returned '0': PYTHONPATH=/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle2 build --build-base /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build install --prefix /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2 --record /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/install.log --single-version-externally-managed

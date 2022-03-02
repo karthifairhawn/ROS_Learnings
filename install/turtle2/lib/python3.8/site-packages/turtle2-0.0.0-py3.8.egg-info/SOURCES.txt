@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/turtle2/turtle2.egg-info/PKG-INFO
+../../build/turtle2/turtle2.egg-info/SOURCES.txt
+../../build/turtle2/turtle2.egg-info/dependency_links.txt
+../../build/turtle2/turtle2.egg-info/entry_points.txt
+../../build/turtle2/turtle2.egg-info/requires.txt
+../../build/turtle2/turtle2.egg-info/top_level.txt
+../../build/turtle2/turtle2.egg-info/zip-safe
+resource/turtle2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+turtle2/__init__.py
+turtle2/turtle.py

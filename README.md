@@ -30,7 +30,8 @@ From root dir -  `colcon build`
  ` x: 0.0`
   `y: 0.0`
   `z: 2.0" ` - To publish to a topic.
-  `4.ros2 topic echo /turtle1/pose` - Echo topic published info
+`4.ros2 topic echo /turtle1/pose` - Echo topic published info
+`5 ros2 topic hz /turtle1/pose` - To get publish rate of particular topic
 
 
 ### Service

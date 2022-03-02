@@ -1,13 +1,13 @@
 {
   "package_name": "turtlesim",
   "non_idl_tuples": [
-    "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
-    "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim:msg/Color.msg",
-    "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim:msg/Pose.msg",
-    "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim:srv/Kill.srv",
-    "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim:srv/SetPen.srv",
-    "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim:srv/Spawn.srv",
-    "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
-    "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:action/RotateAbsolute.action",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:msg/Color.msg",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:msg/Pose.msg",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:srv/Kill.srv",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:srv/SetPen.srv",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:srv/Spawn.srv",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:srv/TeleportAbsolute.srv",
+    "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim:srv/TeleportRelative.srv"
   ]
 }

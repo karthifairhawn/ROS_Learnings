@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/turtle2/turtle2.egg-info
+writing ../../build/turtle2/turtle2.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle2/turtle2.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle2/turtle2.egg-info/entry_points.txt
+writing requirements to ../../build/turtle2/turtle2.egg-info/requires.txt
+writing top-level names to ../../build/turtle2/turtle2.egg-info/top_level.txt
+writing manifest file '../../build/turtle2/turtle2.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle2/turtle2.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle2/turtle2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build
+creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib
+creating /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib/turtle2
+copying turtle2/turtle.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib/turtle2
+copying turtle2/__init__.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/build/lib/turtle2
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages/turtle2-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/turtle2/turtle2.egg-info to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/python3.8/site-packages/turtle2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing turtle script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle2/lib/turtle2
+writing list of installed files to '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle2/install.log'

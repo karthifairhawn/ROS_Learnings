@@ -1,8 +1,8 @@
-# Install script for directory: /media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/turtlesim__py
+# Install script for directory: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/turtlesim__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/install/turtlesim")
+  set(CMAKE_INSTALL_PREFIX "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

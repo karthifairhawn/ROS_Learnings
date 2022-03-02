@@ -1,4 +1,4 @@
--I/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/include
+-I/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/include
 -I/usr/include/x86_64-linux-gnu/qt5
 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets
 -I/usr/include/x86_64-linux-gnu/qt5/QtGui
@@ -6,5 +6,5 @@
 -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
 -DROS_PACKAGE_NAME="turtlesim"
 -o
-/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
-/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.h
+/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
+/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim/include/turtlesim/turtle_frame.h

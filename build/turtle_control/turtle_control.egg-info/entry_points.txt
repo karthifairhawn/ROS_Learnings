@@ -1,0 +1,3 @@
+[console_scripts]
+squaredo = turtle_control.turtle:main
+

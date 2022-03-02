@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim"
+CMAKE_SOURCE_DIR = "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim"
+CMAKE_BINARY_DIR = "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim"
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim" "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/src/ros_tutorials/turtlesim" "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim" "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim" "/media/karthi/New Volume1/Warrior/Projects/ROS/dev_ws/build/turtlesim/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim" "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtlesim" "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim" "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim" "/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
