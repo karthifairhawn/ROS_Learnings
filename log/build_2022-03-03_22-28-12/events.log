@@ -1,0 +1,465 @@
+[0.000000] (-) TimerEvent: {}
+[0.000671] (turtle_control) JobQueued: {'identifier': 'turtle_control', 'dependencies': OrderedDict()}
+[0.001315] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001861] (turtle_control) JobStarted: {'identifier': 'turtle_control'}
+[0.037074] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099294] (-) TimerEvent: {}
+[0.200399] (-) TimerEvent: {}
+[0.301256] (-) TimerEvent: {}
+[0.402201] (-) TimerEvent: {}
+[0.502724] (-) TimerEvent: {}
+[0.603231] (-) TimerEvent: {}
+[0.704247] (-) TimerEvent: {}
+[0.743170] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.746851] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.749370] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', 'en_IN:en'), ('USER', 'karthi'), ('QT_SCREEN_SCALE_FACTORS', 'eDP-1-1=1.25;HDMI-1-1=1.25;'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1282'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/karthi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'plasma'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/88/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'karthi'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'karthi'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cage:@/tmp/.ICE-unix/1374,unix/cage:/tmp/.ICE-unix/1374'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'plasma'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ea8df35a43.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-oyoza9IFOeAv/agent.1222'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/88/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'plasma'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('PWD', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-plasma:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/karthi/.config/Code/exthost Crash Reports'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/opt/ros/foxy')]), 'shell': False}
+[0.804463] (-) TimerEvent: {}
+[0.905222] (-) TimerEvent: {}
+[1.006519] (-) TimerEvent: {}
+[1.107193] (-) TimerEvent: {}
+[1.195387] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[1.207343] (-) TimerEvent: {}
+[1.279051] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[1.307559] (-) TimerEvent: {}
+[1.408518] (-) TimerEvent: {}
+[1.509180] (-) TimerEvent: {}
+[1.562733] (turtlesim) StdoutLine: {'line': b'[ 22%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[1.573747] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[1.609320] (-) TimerEvent: {}
+[1.610777] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[1.620945] (turtlesim) StdoutLine: {'line': b'[ 53%] Built target turtlesim__rosidl_typesupport_c\n'}
+[1.644702] (turtlesim) StdoutLine: {'line': b'[ 63%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[1.709501] (-) TimerEvent: {}
+[1.810307] (-) TimerEvent: {}
+[1.839223] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[1.910445] (-) TimerEvent: {}
+[1.953549] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim\n'}
+[2.010641] (-) TimerEvent: {}
+[2.111736] (-) TimerEvent: {}
+[2.212738] (-) TimerEvent: {}
+[2.257304] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim__py\n'}
+[2.284219] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[2.288093] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtle_teleop_key\n'}
+[2.289155] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target draw_square\n'}
+[2.312903] (-) TimerEvent: {}
+[2.346057] (turtlesim) StdoutLine: {'line': b'[ 85%] Built target turtlesim_node\n'}
+[2.413036] (-) TimerEvent: {}
+[2.479178] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__python\n'}
+[2.513203] (-) TimerEvent: {}
+[2.540565] (turtle_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_control', 'build', '--build-base', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/build', 'install', '--prefix', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control', '--record', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/install.log', '--single-version-externally-managed'], 'cwd': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtle_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': 'en_IN:en', 'USER': 'karthi', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1-1=1.25;HDMI-1-1=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1282', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/karthi', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.64.2', 'DESKTOP_SESSION': 'plasma', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/88/usr/share/code/code', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'COLCON_PREFIX_PATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'karthi', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'karthi', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cage:@/tmp/.ICE-unix/1374,unix/cage:/tmp/.ICE-unix/1374', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XDG_SESSION_DESKTOP': 'plasma', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ea8df35a43.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-oyoza9IFOeAv/agent.1222', 'GSETTINGS_SCHEMA_DIR': '/snap/code/88/usr/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'KDE', 'SHELL': '/bin/bash', 'DISABLE_WAYLAND': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'plasma', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'XDG_VTNR': '2', 'PWD': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-plasma:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'BREAKPAD_DUMP_LOCATION': '/home/karthi/.config/Code/exthost Crash Reports', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim'}, 'shell': False}
+[2.613431] (-) TimerEvent: {}
+[2.693006] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.694548] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[2.700816] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[2.713559] (-) TimerEvent: {}
+[2.814415] (-) TimerEvent: {}
+[2.834423] (turtlesim) CommandEnded: {'returncode': 0}
+[2.914867] (-) TimerEvent: {}
+[3.015722] (-) TimerEvent: {}
+[3.116612] (-) TimerEvent: {}
+[3.217393] (-) TimerEvent: {}
+[3.318437] (-) TimerEvent: {}
+[3.419308] (-) TimerEvent: {}
+[3.420194] (turtle_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.422486] (turtle_control) StdoutLine: {'line': b'writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO\n'}
+[3.423991] (turtle_control) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt\n'}
+[3.425640] (turtle_control) StdoutLine: {'line': b'writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt\n'}
+[3.426718] (turtle_control) StdoutLine: {'line': b'writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt\n'}
+[3.427870] (turtle_control) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt\n'}
+[3.519459] (-) TimerEvent: {}
+[3.524981] (turtle_control) StdoutLine: {'line': b"reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'\n"}
+[3.535354] (turtle_control) StdoutLine: {'line': b"writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'\n"}
+[3.536650] (turtle_control) StdoutLine: {'line': b'running build\n'}
+[3.537370] (turtle_control) StdoutLine: {'line': b'running build_py\n'}
+[3.541594] (turtle_control) StdoutLine: {'line': b'copying turtle_control/bgcolor_service.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/build/lib/turtle_control\n'}
+[3.548846] (turtle_control) StdoutLine: {'line': b'running install\n'}
+[3.551712] (turtle_control) StdoutLine: {'line': b'running install_lib\n'}
+[3.559892] (turtle_control) StdoutLine: {'line': b'copying /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/build/lib/turtle_control/bgcolor_service.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control\n'}
+[3.573152] (turtle_control) StdoutLine: {'line': b'byte-compiling /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control/bgcolor_service.py to bgcolor_service.cpython-38.pyc\n'}
+[3.584636] (turtle_control) StdoutLine: {'line': b'running install_data\n'}
+[3.588036] (turtle_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.592528] (turtle_control) StdoutLine: {'line': b"removing '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.600099] (turtle_control) StdoutLine: {'line': b'Copying ../../build/turtle_control/turtle_control.egg-info to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control-0.0.0-py3.8.egg-info\n'}
+[3.619610] (-) TimerEvent: {}
+[3.627004] (turtle_control) StdoutLine: {'line': b'running install_scripts\n'}
+[3.683118] (turtle_control) StdoutLine: {'line': b'Installing bgclient script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control\n'}
+[3.686378] (turtle_control) StdoutLine: {'line': b'Installing bgservice script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control\n'}
+[3.691330] (turtle_control) StdoutLine: {'line': b'Installing pyturtle script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control\n'}
+[3.695607] (turtle_control) StdoutLine: {'line': b'Installing pyturtlecontrol script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control\n'}
+[3.703828] (turtle_control) StdoutLine: {'line': b"writing list of installed files to '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/install.log'\n"}
+[3.719765] (-) TimerEvent: {}
+[3.757066] (turtle_control) CommandEnded: {'returncode': 0}
+[3.815207] (turtle_control) JobEnded: {'identifier': 'turtle_control', 'rc': 0}
+[3.819846] (-) TimerEvent: {}
+[3.920329] (-) TimerEvent: {}
+[4.021322] (-) TimerEvent: {}
+[4.123545] (-) TimerEvent: {}
+[4.224370] (-) TimerEvent: {}
+[4.325627] (-) TimerEvent: {}
+[4.426403] (-) TimerEvent: {}
+[4.527181] (-) TimerEvent: {}
+[4.627966] (-) TimerEvent: {}
+[4.667907] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[4.708365] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim'], 'cwd': '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', 'en_IN:en'), ('USER', 'karthi'), ('QT_SCREEN_SCALE_FACTORS', 'eDP-1-1=1.25;HDMI-1-1=1.25;'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1282'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/karthi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'plasma'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/88/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/88/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'karthi'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'karthi'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cage:@/tmp/.ICE-unix/1374,unix/cage:/tmp/.ICE-unix/1374'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'plasma'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ea8df35a43.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-oyoza9IFOeAv/agent.1222'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/88/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'plasma'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('PWD', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-plasma:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/karthi/.config/Code/exthost Crash Reports'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim:/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control:/opt/ros/foxy')]), 'shell': False}
+[4.728209] (-) TimerEvent: {}
+[4.758151] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.760402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[4.761896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim\n'}
+[4.765044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[4.767346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[4.770053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[4.772059] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[4.773933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[4.776464] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[4.780523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[4.783309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[4.788356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[4.791086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[4.794981] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[4.798909] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[4.802107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[4.805278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[4.808338] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__functions.c\n'}
+[4.811325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__functions.h\n'}
+[4.813861] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__struct.h\n'}
+[4.816048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__type_support.h\n'}
+[4.818187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[4.820093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[4.822094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[4.824046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[4.825977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/main_bg.h\n'}
+[4.827908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[4.828341] (-) TimerEvent: {}
+[4.830114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.831918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[4.835021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[4.838866] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[4.841584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[4.845082] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[4.850296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[4.853654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__functions.c\n'}
+[4.856368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__functions.h\n'}
+[4.858735] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__struct.h\n'}
+[4.861011] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__type_support.h\n'}
+[4.863264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[4.866010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[4.868737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[4.871472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[4.874225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[4.876714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[4.878966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[4.881273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[4.883569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[4.886155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[4.889013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[4.891528] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[4.894229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[4.896725] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[4.900946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[4.903633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[4.906181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[4.908119] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/main_bg.h\n'}
+[4.910271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[4.912265] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[4.914423] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[4.917018] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[4.918926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[4.921415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[4.925008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[4.928309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim\n'}
+[4.928742] (-) TimerEvent: {}
+[4.933143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[4.937079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[4.940994] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[4.943093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[4.945864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[4.951789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[4.956246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__rosidl_typesupport_fastrtps_c.h\n'}
+[4.959627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[4.962028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.964311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[4.967939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[4.971853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[4.974207] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__rosidl_typesupport_fastrtps_c.h\n'}
+[4.976494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[4.978794] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[4.987343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[4.993196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[5.001194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[5.007267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim\n'}
+[5.010799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.018421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.027908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[5.029553] (-) TimerEvent: {}
+[5.036888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.040307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.044487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.049510] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.053080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[5.058225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.062365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.066686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.069853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.073806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.078391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[5.083624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.087706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.090615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.093682] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.096540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.099038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.102780] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.106262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim\n'}
+[5.107963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.109915] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.112543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[5.115178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[5.117503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.120204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.125640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[5.129657] (-) TimerEvent: {}
+[5.130268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[5.133539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__rosidl_typesupport_introspection_c.h\n'}
+[5.136266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__type_support.c\n'}
+[5.138839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[5.141190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[5.143172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.144942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.148561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.152187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[5.154690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[5.157319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__rosidl_typesupport_introspection_c.h\n'}
+[5.160637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__type_support.c\n'}
+[5.164487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[5.167980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[5.171463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[5.175037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[5.179572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[5.182991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[5.186305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[5.189602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[5.195112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[5.203805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[5.208993] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim\n'}
+[5.211485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.213874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.217126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[5.219252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[5.221022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[5.222693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[5.223926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.225968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[5.227114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.229808] (-) TimerEvent: {}
+[5.230876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[5.234658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[5.237776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[5.240731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__builder.hpp\n'}
+[5.243916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__struct.hpp\n'}
+[5.247738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__traits.hpp\n'}
+[5.251422] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[5.254308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[5.256956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[5.259113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/main_bg.hpp\n'}
+[5.261436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[5.265896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.273260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.277441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[5.280527] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[5.283589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[5.285951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__builder.hpp\n'}
+[5.288188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__struct.hpp\n'}
+[5.290483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__traits.hpp\n'}
+[5.292998] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[5.295603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[5.298329] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[5.300815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[5.303022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[5.305221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[5.307557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[5.310009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[5.313257] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[5.317737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[5.321563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[5.324625] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[5.327160] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[5.329627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/main_bg.hpp\n'}
+[5.330169] (-) TimerEvent: {}
+[5.332227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[5.334918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[5.337959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[5.341060] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[5.343188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim\n'}
+[5.348786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[5.355353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[5.362306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.366968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[5.369622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[5.375544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[5.381274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.385038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[5.390493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.394792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/main_bg__type_support.cpp\n'}
+[5.397479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.399846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[5.402240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[5.404865] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[5.407682] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.409322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[5.410791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.412322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/main_bg__type_support.cpp\n'}
+[5.413966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.416777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[5.420095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.423029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[5.425822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.428015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[5.430295] (-) TimerEvent: {}
+[5.431548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.435439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[5.441446] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[5.449820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[5.455670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[5.458470] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[5.461358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[5.530432] (-) TimerEvent: {}
+[5.608035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[5.618035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[5.624999] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[5.630559] (-) TimerEvent: {}
+[5.633237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_main_bg.py\n'}
+[5.640705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_main_bg_s.c\n'}
+[5.654259] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[5.660607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[5.666708] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[5.673013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[5.684333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[5.694630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[5.701701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_main_bg.py\n'}
+[5.708569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_main_bg_s.c\n'}
+[5.715363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[5.722513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[5.729723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[5.730990] (-) TimerEvent: {}
+[5.737349] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[5.742516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[5.748070] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[5.751925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[5.755576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[5.759643] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[5.763762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[5.769668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[5.773799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[5.778168] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[5.787605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.800785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.810586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.821348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[5.827451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/msg/MainBG.idl\n'}
+[5.831093] (-) TimerEvent: {}
+[5.831494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/MainBG.idl\n'}
+[5.835874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[5.840101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[5.844039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[5.849447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[5.853303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[5.857102] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[5.861968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[5.866818] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[5.871803] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/msg/MainBG.msg\n'}
+[5.876971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/MainBG.srv\n'}
+[5.881706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/MainBG_Request.msg\n'}
+[5.886208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/MainBG_Response.msg\n'}
+[5.890200] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[5.893088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[5.897301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[5.901383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[5.905234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[5.908229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[5.911268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[5.916224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[5.920042] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[5.925107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[5.931318] (-) TimerEvent: {}
+[5.936796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[5.943545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[5.949688] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[5.955465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[5.959981] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[5.963544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[5.967418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[5.971010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[5.981458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[5.999680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[6.017831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[6.028888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[6.031436] (-) TimerEvent: {}
+[6.036939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/images\n'}
+[6.042056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[6.045821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[6.050274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[6.055200] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[6.059082] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[6.064555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[6.068583] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/launch\n'}
+[6.073692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[6.080742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[6.088301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[6.091875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[6.099514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[6.103799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[6.108950] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[6.113971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[6.118812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[6.122601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[6.125953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[6.129159] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[6.131513] (-) TimerEvent: {}
+[6.141771] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[6.150880] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[6.155795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.162176] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.166986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.175081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[6.181198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.188226] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[6.194169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.198928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.205575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[6.209211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.212824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[6.216853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.221199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.225981] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.231707] (-) TimerEvent: {}
+[6.233437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.238472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.242361] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.246900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[6.250364] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[6.254285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[6.268275] (turtlesim) CommandEnded: {'returncode': 0}
+[6.331841] (-) TimerEvent: {}
+[6.433173] (-) TimerEvent: {}
+[6.534219] (-) TimerEvent: {}
+[6.635388] (-) TimerEvent: {}
+[6.736261] (-) TimerEvent: {}
+[6.836895] (-) TimerEvent: {}
+[6.937736] (-) TimerEvent: {}
+[7.038601] (-) TimerEvent: {}
+[7.139716] (-) TimerEvent: {}
+[7.240387] (-) TimerEvent: {}
+[7.341047] (-) TimerEvent: {}
+[7.441647] (-) TimerEvent: {}
+[7.542580] (-) TimerEvent: {}
+[7.643474] (-) TimerEvent: {}
+[7.744141] (-) TimerEvent: {}
+[7.844785] (-) TimerEvent: {}
+[7.946500] (-) TimerEvent: {}
+[8.047181] (-) TimerEvent: {}
+[8.147846] (-) TimerEvent: {}
+[8.248590] (-) TimerEvent: {}
+[8.349257] (-) TimerEvent: {}
+[8.449990] (-) TimerEvent: {}
+[8.501853] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[8.505312] (-) EventReactorShutdown: {}

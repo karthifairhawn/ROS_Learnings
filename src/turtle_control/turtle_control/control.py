@@ -12,7 +12,6 @@ class Keyboard_Input(Node):
 
     def on_press(self,key):
         msg = String()
-        # print('{0} pressed'.format(key))
         msg.data = format(key)
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
@@ -27,7 +26,7 @@ class Keyboard_Input(Node):
             return False
 
     def __init__(self):
-        super().__init__('minimal_publisher')
+        super().__init__('keyboard_input')
         self.publisher_ = self.create_publisher(String, 'topic', 10)
         timer_period = 0.5  # seconds
         with Listener(on_press=self.on_press,on_release=self.on_release) as listener:listener.join()

@@ -8,7 +8,7 @@ from rclpy.node import Node
 class BGcolor_Client(Node):
 
     def __init__(self):
-        super().__init__('minimal_client_async')
+        super().__init__('color_client')
         self.cli = self.create_client(AddTwoInts, 'add_two_ints')
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')

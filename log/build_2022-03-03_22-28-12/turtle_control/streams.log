@@ -1,0 +1,27 @@
+[2.553s] Invoking command in '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtle_control': PYTHONPATH=/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_control build --build-base /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/build install --prefix /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control --record /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/install.log --single-version-externally-managed
+[3.418s] running egg_info
+[3.420s] writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO
+[3.422s] writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt
+[3.424s] writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt
+[3.425s] writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt
+[3.426s] writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt
+[3.523s] reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[3.534s] writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[3.534s] running build
+[3.535s] running build_py
+[3.539s] copying turtle_control/bgcolor_service.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/build/lib/turtle_control
+[3.547s] running install
+[3.550s] running install_lib
+[3.558s] copying /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/build/lib/turtle_control/bgcolor_service.py -> /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control
+[3.571s] byte-compiling /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control/bgcolor_service.py to bgcolor_service.cpython-38.pyc
+[3.583s] running install_data
+[3.586s] running install_egg_info
+[3.590s] removing '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control-0.0.0-py3.8.egg-info' (and everything under it)
+[3.598s] Copying ../../build/turtle_control/turtle_control.egg-info to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages/turtle_control-0.0.0-py3.8.egg-info
+[3.625s] running install_scripts
+[3.682s] Installing bgclient script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control
+[3.685s] Installing bgservice script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control
+[3.693s] Installing pyturtle script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control
+[3.694s] Installing pyturtlecontrol script to /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/turtle_control
+[3.704s] writing list of installed files to '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/install.log'
+[3.757s] Invoked command in '/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/src/turtle_control' returned '0': PYTHONPATH=/media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_control build --build-base /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/build install --prefix /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/install/turtle_control --record /media/karthi/New Volume/Warrior/Projects/ROS/dev_ws/build/turtle_control/install.log --single-version-externally-managed
