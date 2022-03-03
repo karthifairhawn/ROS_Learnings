@@ -21,7 +21,7 @@ class BGcolor_Service(Node):
 class Change_Color(Node):        
 
     def __init__(self,a,b):
-        super().__init__('minimal_publisher')
+        super().__init__('change_color_publisher')
         self.publisher_ = self.create_publisher(String, 'topic', 10)
         timer_period = 0.5  # seconds
         msg = String()

@@ -17,20 +17,24 @@ class Turtle_GUI(Node):
         self.get_logger().info('I heard: "%s"' % msg.data)
 
         if(msg.data=="Key.up"):
-            t.forward(5)
+            turtle.forward(5)
         elif(msg.data=="Key.down"):
-            t.back(5)
+            turtle.back(5)
         elif(msg.data=="Key.left"):
-            t.left(5)
+            turtle.left(5)
         elif(msg.data=="Key.right"):
-            t.right(5)
+            turtle.right(5)
+        elif(msg.data.find("change_color")!=-1):            
+            turtle.Screen().bgcolor("orange")
 
 # draw square in Python Turtle
 from time import sleep
 import turtle
 
-t = turtle.Turtle()
-t.shape("turtle")
+turtle.bgcolor("blue")
+# t = turtle.Turtle()
+turtle.shape("turtle")
+
 
 s = 10
 
