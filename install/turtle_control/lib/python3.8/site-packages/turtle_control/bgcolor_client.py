@@ -1,6 +1,7 @@
 import sys
 
 from example_interfaces.srv import AddTwoInts
+from pyturtle_interfaces.srv import MainBG
 import rclpy
 from rclpy.node import Node
 
@@ -9,10 +10,10 @@ class BGcolor_Client(Node):
 
     def __init__(self):
         super().__init__('color_client')
-        self.cli = self.create_client(AddTwoInts, 'add_two_ints')
+        self.cli = self.create_client(MainBG, 'add_two_ints')
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
-        self.req = AddTwoInts.Request()
+        self.req = MainBG.Request()
 
     def send_request(self):
         self.req.a = int(sys.argv[1])
