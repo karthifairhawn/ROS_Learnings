@@ -1,6 +1,5 @@
 import sys
 
-from example_interfaces.srv import AddTwoInts
 from pyturtle_interfaces.srv import MainBG
 import rclpy
 from rclpy.node import Node
@@ -18,6 +17,7 @@ class BGcolor_Client(Node):
     def send_request(self):
         self.req.a = int(sys.argv[1])
         self.req.b = int(sys.argv[2])
+        self.req.c = int(sys.argv[3])
         self.future = self.cli.call_async(self.req)
 
 

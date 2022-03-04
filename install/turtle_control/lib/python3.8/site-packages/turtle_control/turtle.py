@@ -24,8 +24,11 @@ class Turtle_GUI(Node):
             turtle.left(5)
         elif(msg.data=="Key.right"):
             turtle.right(5)
-        elif(msg.data.find("change_color")!=-1):            
-            turtle.Screen().bgcolor("orange")
+        elif(msg.data.find("change_color")!=-1):   
+            values = msg.data.split(" ")
+            turtle.Screen().colormode(255)
+            turtle.Screen().bgcolor(int(values[1]),int(values[2]),int(values[3]))
+            
 
 # draw square in Python Turtle
 from time import sleep
@@ -34,6 +37,7 @@ import turtle
 turtle.bgcolor("blue")
 # t = turtle.Turtle()
 turtle.shape("turtle")
+
 
 
 s = 10
