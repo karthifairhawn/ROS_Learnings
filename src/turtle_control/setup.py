@@ -22,7 +22,7 @@ setup(
         'console_scripts': [
                 'pyturtle = turtle_control.turtle:main',
                 'pyturtlecontrol = turtle_control.control:main',
-                'bgservice = turtle_control.bgcolor_service:main',
+                'pyturtleservice = turtle_control.pyturtle_service:main',
                 'bgclient = turtle_control.bgcolor_client:main',
         ],
     },
