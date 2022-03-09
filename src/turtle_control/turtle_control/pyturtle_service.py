@@ -1,14 +1,13 @@
-from example_interfaces.srv import AddTwoInts
 from pyturtle_interfaces.srv import MainBG
 
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
-class BGcolor_Service(Node):
+class Pyturtle_Service(Node):
 
     def __init__(self):
-        super().__init__('color_service')
+        super().__init__('pyturtle_service')
         self.srv = self.create_service(MainBG, 'add_two_ints', self.add_two_ints_callback)
 
     def add_two_ints_callback(self, request, response):
@@ -33,7 +32,7 @@ class Change_Color(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    minimal_service = BGcolor_Service()
+    minimal_service = Pyturtle_Service()
     rclpy.spin(minimal_service)
     rclpy.shutdown()
 

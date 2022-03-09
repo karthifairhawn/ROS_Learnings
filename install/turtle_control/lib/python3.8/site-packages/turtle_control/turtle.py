@@ -1,8 +1,10 @@
-from example_interfaces.srv import AddTwoInts
+import numpy as np
 
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+
+
 
 class Turtle_GUI(Node):
 
@@ -24,11 +26,17 @@ class Turtle_GUI(Node):
             turtle.left(5)
         elif(msg.data=="Key.right"):
             turtle.right(5)
+        elif(msg.data.find("change_color 0 0 0")!=-1): 
+            self.random_color()
         elif(msg.data.find("change_color")!=-1):   
-            values = msg.data.split(" ")
-            turtle.Screen().colormode(255)
+            values = msg.data.split(" ")            
             turtle.Screen().bgcolor(int(values[1]),int(values[2]),int(values[3]))
             
+    def random_color(self):
+        color = list(np.random.choice(range(256), size=3))
+        turtle.Screen().bgcolor(color[0],color[1],color[2])
+
+
 
 # draw square in Python Turtle
 from time import sleep
@@ -36,6 +44,7 @@ import turtle
 
 turtle.bgcolor("blue")
 # t = turtle.Turtle()
+turtle.Screen().colormode(255)
 turtle.shape("turtle")
 
 
