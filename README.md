@@ -50,7 +50,7 @@ From root dir -  `colcon build`
     ```
     int64 a
 
-    int64 b
+    int64 b 
 
     int64 c
 
